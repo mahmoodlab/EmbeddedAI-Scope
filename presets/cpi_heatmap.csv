@@ -1,0 +1,2 @@
+seg_level,sthresh,mthresh,close,use_otsu,a_t,a_h,max_n_holes,ref_downscale,seg_downscale,line_thickness,use_padding,contour_fn,vis_level
+0,150,5,2,TRUE,1,1,5,2,4,50,TRUE,four_pt_hard,0

@@ -1,0 +1,80 @@
+--- 
+exp_arguments:
+  n_classes: 2
+  save_exp_code: cpi_lung
+  raw_save_dir: heatmaps/heatmap_raw_results
+  production_save_dir: heatmaps/heatmap_production_results
+  batch_size: 128
+data_arguments: 
+  data_dir: data/
+  feature_dir: null
+  process_list: cpi_heatmap_test.csv
+  preset: presets/cpi_heatmap.csv
+  use_features: false
+  slide_ext: .tiff
+  label_dict:
+    LUAD: 0
+    LUSC: 1                               
+patching_arguments:
+  patch_size: 256
+  overlap: 0.5
+  patch_level: 0
+  custom_downsample: 1
+model_arguments: 
+  ckpt_path: results/lung_public_cv_w_frozen/lung_public_cv_w_frozen_CLAM_100_s1/s_4_checkpoint.pt
+  model_type: clam
+#  initiate_fn: initiate_model
+  model_size: small
+  drop_out: true
+heatmap_arguments:
+  # downsample at which to visualize heatmap (-1 refers to downsample closest to 32x downsample)
+  vis_level: 0
+  
+  # transparency for overlaying heatmap on background (0: background only, 1: foreground only)
+  alpha: 0.5
+  
+  # whether to use a blank canvas instead of original slide
+  blank_canvas: false
+  
+  # whether to also save the original H&E image
+  # save_orig: false
+  
+  # file extension for saving heatmap/original image
+  save_ext: jpg
+  
+  # whether to calculate percentile scores in reference to the set of all patches in all ROIs
+  use_ref_scores: true
+  
+  # whether to use gaussian blur for further smoothing
+  blur: true 
+  
+  # whether to shift the 4 default points for checking if a patch is inside a foreground contour
+  use_center_shift: true
+  
+  # whether to only compute heatmap for ROI specified by x1, x2, y1, y2
+  # use_roi: false 
+  # # whether to calculate heatmap with specified overlap (by default, coarse heatmap without overlap is always calculated)
+  # calc_heatmap: false
+  
+  # whether to binarize attention scores
+  binarize: false
+  
+  # binarization threshold: (0, 1)
+  binary_thresh: 0.9
+  #
+  custom_downsample: 1
+
+# sample_arguments:
+#   samples:
+#     - name: "topk_high_attention"
+#       sample: false
+#       seed: 1
+#       k: 10
+#       mode: topk
+#     - name: "topk_low_attention"
+#       sample: false
+#       seed: 1
+#       k: 3
+#       mode: inverse_topk
+
+

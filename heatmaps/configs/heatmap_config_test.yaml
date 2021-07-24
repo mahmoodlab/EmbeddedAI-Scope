@@ -1,0 +1,59 @@
+--- 
+exp_arguments:
+  n_classes: 2
+  save_exp_code: cpi_lung
+  raw_save_dir: heatmaps/heatmap_raw_results
+  production_save_dir: heatmaps/heatmap_production_results
+  batch_size: 128
+data_arguments: 
+  data_dir: data/
+  process_list: cpi_heatmap_test.csv
+  preset: presets/cpi_heatmap.csv
+  slide_ext: .tiff
+  label_dict:
+    LUAD: 0
+    LUSC: 1                               
+patching_arguments:
+  patch_size: 256
+  overlap: 0.0
+  patch_level: 0
+  custom_downsample: 1
+model_arguments: 
+  ckpt_path: results/lung_public_cv_w_frozen/lung_public_cv_w_frozen_CLAM_100_s1/s_4_checkpoint.pt
+  model_type: clam
+  model_size: small
+  drop_out: true
+heatmap_arguments:
+  # downsample at which to visualize heatmap (-1 refers to downsample closest to 32x downsample)
+  vis_level: 0
+  
+  # transparency for overlaying heatmap on background (0: background only, 1: foreground only)
+  alpha: 0.5
+  
+  # whether to use a blank canvas instead of original slide
+  blank_canvas: false
+  
+  # file extension for saving heatmap
+  save_ext: jpg
+  
+  # whether to calculate percentile scores in reference to the set of all patches in all ROIs
+  use_ref_scores: true
+  
+  # whether to use gaussian blur for further smoothing
+  blur: false 
+  
+  # whether to shift the 4 default points for checking if a patch is inside a foreground contour
+  use_center_shift: true
+  
+  # whether to binarize attention scores
+  binarize: false
+  
+  # binarization threshold: (0, 1)
+  binary_thresh: 0.9
+  
+  # downscale factor for final heatmap 
+  custom_downsample: 1
+
+
+
+

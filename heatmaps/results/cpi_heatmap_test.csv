@@ -1,0 +1,2 @@
+slide_id,label,process,status,seg_level,sthresh,mthresh,close,use_otsu,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn,x1,x2,y1,y2,total_bag_size,Pred_0,p_0
+bwh_lung_2652,LUSC,1,tbp,0,150,5,2,True,1.0,1.0,5,0,50,True,four_pt_hard,,,,,94.0,LUSC,0.9868118166923523

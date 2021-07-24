@@ -1,0 +1,11 @@
+,slide_id,img,img_id,label,tissue_type,slide_block,dx,process,status,seg_level,sthresh,mthresh,close,use_otsu,a_t,a_h,max_n_holes,vis_level,line_thickness,use_padding,contour_fn,x1,x2,y1,y2
+0,BD2020_00015981,BD2020_00015981_1.tiff,1,primary,FS,BS-19-D14867_B1,ACA,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+1,BD2020_00015981,BD2020_00015981_2.tiff,2,primary,FS,BS-19-D14867_B1,ACA,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+2,BD2020_00015983,BD2020_00015983_1.tiff,1,normal,FS,BS-19-M15032_A1,Organizing pneumonia,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+3,BD2020_00015983,BD2020_00015983_2.tiff,2,normal,FS,BS-19-M15032_A1,Organizing pneumonia,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+4,BD2020_00015987,BD2020_00015987_1.tiff,1,primary,FS,BS-19-N15478_A1,SCC,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+5,BD2020_00015987,BD2020_00015987_2.tiff,2,primary,FS,BS-19-N15478_A1,SCC,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+6,BD2020_00016171,BD2020_00016171_1.tiff,1,primary,FS,BS-19-W38773_A1,ACA,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+7,BD2020_00016171,BD2020_00016171_2.tiff,2,primary,FS,BS-19-W38773_A1,ACA,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+8,BD2020_00016171,BD2020_00016171_3.tiff,3,primary,FS,BS-19-W38773_A1,ACA,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
+9,BD2020_00016171,BD2020_00016171_4.tiff,4,primary,FS,BS-19-W38773_A1,ACA,1,tbp,-1,0,1,2,False,2.0,1.0,2,-1,15,True,four_pt,,,,
