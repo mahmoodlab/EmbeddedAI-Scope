@@ -6,7 +6,11 @@ STL files for 3D printing are in `/stls`. The prints have been tested using a st
 
 To build the device, please see [parts list and instructions with images](stls/assembly_instructions.pdf) here. Also see [assembly video]() for a very general overview of assembly. 
 
+High-level overview of device structure and setup:
+
 ![Overview of device](docs/figs/overview.jpeg)
+
+Comparison with traditional development and deployment setups.
 
 ![Pipeline flow](docs/figs/flow.jpeg)
 
