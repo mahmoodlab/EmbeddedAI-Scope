@@ -1,0 +1,6 @@
+results/deprecated
+**/.DS_Store
+__pycache__/
+heatmaps/heatmap_raw_results
+heatmaps/heatmap_production_results
+data
