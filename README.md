@@ -5,7 +5,7 @@ A 3D printed embedded AI-based microscope for pathology diagnosis.
 ### Requirements
 
 The setup of this device requires two small single-board computers (ideally one of which should be specialized for deep learning, such as an Nvidia Jetson Nano). 
-Current STLs support an Nvidia Jetson Nano for model inference and a Raspberry Pi for imaging processing. A Raspberry Pi Camera V2 is used for imaging of samples. The STLs support a battery pack at most as large as the Jetson Nano and a 7 inch touch screen, though the specific dimensions of the STLs could be used to accommodate for different setups (for example a larger screen, larger battery packs, or more than one battery). 
+Current STLs support an Nvidia Jetson Nano for model inference and a Raspberry Pi for imaging processing. A Raspberry Pi Camera V2 is used for imaging of samples. The STLs support a battery pack at most as large as the Jetson Nano and a 7 inch touch screen, though the specific dimensions of the STLs could be used to accommodate for different setups (for example a larger screen, larger battery packs, or more than one battery). See ... for details on modifying the STLs.
 
 ### Instructions
 
