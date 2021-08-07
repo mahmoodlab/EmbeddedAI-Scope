@@ -1,6 +1,6 @@
-# Embedded Scope
+# Embedded AI Scope
 
-A 3D printed embedded AI-based microscope for pathology diagnosis.
+*A 3D printed embedded AI-based microscope for pathology diagnosis.*
 
 *TL;DR: We present a 3D printed microscope coupled with a tiny embedded AI processor for running deep models trained on whole slide images. Tested on lung cancer and head and neck cancer detection and subtyping for both FFPE slides and frozen sections. The proposed setup can be used in low resouce settings where expensive slide scanners, computing equipment and pathology expertise may not be available. The setup can also be used for immidiate diagnosis from frozen sections during surgery.*
 
