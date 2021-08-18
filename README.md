@@ -17,7 +17,7 @@ To build the device,
 
 * Please see [here](stls/assembly_instructions.pdf) for a list of parts and specific assembly instructions with pictures. 
 * Also see [assembly video](https://drive.google.com/file/d/1WPFa4IFCZg4AjeARS-ab-TACosYXbkmb/view?usp=sharing) for a very general overview and timelapse of assembly. 
-* Ethernet file transfer (if needed) between the Jetson Nano and the Raspberry Pi can be set up in many ways, such as using a combination of `inotifywait`, `watch`, and `scp`. See ... for details.
+* Ethernet file transfer (if needed) between the Jetson Nano and the Raspberry Pi can be set up in many ways. See [here](stls/ethernet_instructions.md): for details.
 * After assembling and setting up the Ethernet connection (if needed), please see [model instructions](docs/README.md) for installing requirements and a toy example.
 
 High-level overview of device structure and setup:
