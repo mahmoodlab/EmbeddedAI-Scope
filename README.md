@@ -30,5 +30,6 @@ Comparison with traditional development and deployment setups:
 
 ![Pipeline flow](docs/figs/flow.jpeg)
 
-
+### Acknowledgments
+[CLAM](https://github.com/mahmoodlab/CLAM) and [OpenFlexture](https://github.com/rwb27/openflexure_microscope)
 
